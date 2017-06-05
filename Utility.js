@@ -12,10 +12,10 @@ function getElementsByAttribute(name, value) {
 		value = value || "*";
 	
 	if (name ) {
-		//if ()
+	
 		for (i=0; i < children.length; i++) {
 			temp = children[i];
-		//	if (temp.nodeType == 1) {
+		
 			if (temp.hasAttribute(name)) {
 				if (value !== "*") {
 					att = temp.getAttribute(name);
